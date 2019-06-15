@@ -1,0 +1,46 @@
+How did viewing a diff between two versions of a file help you see the bug that 
+was introduced?
+
+    Since the old file used to run properly, it means that only new differences within the
+    new file are what caused the bug. So locating the difference will eventually mean locating
+    where the bug's line is, then comparing the old and new lines to analyze what went wrong. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It saves efforts and time spent looking for previous versions to find information and bugs.  
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    As a disadvantge, I think it might cause conflicts when there is a team workingn
+    on the same project as the eed for commits differ among the team members, and it 
+    might be harder for one member to go back through a certain version if they have
+    a different orientation of when this version should have been commited. 
+    As for the advantages, it seems to give more flexibility for the developer
+    who might be more aware of the places needing commits. 
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+   It makes it easier to track the files related to the same project or topic 
+   and always check on them as one unit. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log helps show all commits aka versions done for the project with each
+    having an ID and a message to indicate what changes it holds. 
+    As for git diff, it helps compare two specific versions in terms of 
+    changes like additons and deletions doen to them. 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    It gives more courage to make changes and try something new out since it is
+    guaranteed that there is always a way back to the correct version.  
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    For teamwork. 
